@@ -1,0 +1,32 @@
+{
+  "name": "draft-md-converter",
+  "version": "0.1.3",
+  "description": "Convert draft-js input to Markdown",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinesApp/draftToMD.git"
+  },
+  "keywords": [
+    "draft-js",
+    "markdown"
+  ],
+  "author": "Henry Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mengfoobar/draft-md-converter/issues"
+  },
+  "homepage": "https://github.com/mengfoobar/draft-md-converter#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "body-parser": "~1.17.1",
+    "cors": "^2.8.3",
+    "draft-js": "^0.10.1",
+    "express": "~4.15.2",
+    "immutable": "^3.8.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
